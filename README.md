@@ -79,10 +79,10 @@ Formula: `V = πr²h`
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/week-1-toy-problems.git
+git clone https://github.com/SirAlvinAmisi/week-1-toy-problems.git
 
 cd week-1-toy-problems
 
-node <filename>.js
+node gradeGenerator.js  *example file*
 
 For any queries or clarifications, please reach out to me at < alvomakaya@gmail.com >
