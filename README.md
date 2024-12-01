@@ -14,6 +14,9 @@ This repository contains solutions to the Week 1 assignment for toy problems, fo
 3. [How to Run the Code](#how-to-run-the-code)
 4. [Repository Structure](#repository-structure)
 5. [Resources](#resources)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
 ---
 
@@ -32,22 +35,21 @@ Write a function that prompts the user to input student marks (0–100) and outp
 - **C**: 50–59  
 - **D**: 40–49  
 - **E**: Below 40  
-
----
+**Example Output**: If the user inputs `85`, the output will be `The grade is: A`.
 
 ### Challenge 2: Speed Detector
 Create a program that evaluates the speed of a car. Behavior:
 - Speeds below 70: Output `Ok`
 - For every 5 km/s over 70, award 1 demerit point.
 - If demerit points exceed 12, print `License suspended`.
-
----
+**Example Output**: If the speed is `80`, the output will be `Demerit points: 2`.
 
 ### Challenge 3: Net Salary Calculator
 Build a program to calculate an individual’s net salary. It should consider:
 - Basic Salary and Benefits as inputs.
 - Deductions: **PAYE Tax**, **NHIF**, **NSSF**.
 - Outputs: **Gross Salary** and **Net Salary**.
+**Example Output**: If the basic salary is `50000`, the output will show the calculated gross and net salary.
 
 Refer to:
 - [KRA Tax Rates](https://www.aren.co.ke/payroll/taxrates.htm)
@@ -66,23 +68,50 @@ Refer to:
    Write a function to print a step-shaped staircase for a given number of levels.  
    Example Input: `3`  
    Example Output:  
+   ```
+   #
+   ##
+   ###
+   ```
 
 3. **Volume of a Cylinder**  
-Write a program to calculate the volume of a cylinder using objects.  
-Formula: `V = πr²h`  
-- Inputs: radius (r), height (h).  
-- Outputs: Volume to 4 decimal places.
+   Write a program to calculate the volume of a cylinder using objects.  
+   Formula: `V = πr²h`  
+   - Inputs: radius (r), height (h).  
+   - Outputs: Volume to 4 decimal places.
 
 ---
 
 ## How to Run the Code
 
 1. Clone the repository:
-```bash
-git clone https://github.com/SirAlvinAmisi/week-1-toy-problems.git
+   ```bash
+   git clone https://github.com/SirAlvinAmisi/week-1-toy-problems.git
+   cd week-1-toy-problems
+   ```
 
-cd week-1-toy-problems
+2. Run the specific challenge file using Node.js. For example, to run the grade generator:
+   ```bash
+   node gradeGenerator.js
+   ```
 
-node gradeGenerator.js  *example file*
+For any queries or clarifications, please reach out to me at <alvomakaya@gmail.com>.
 
-For any queries or clarifications, please reach out to me at < alvomakaya@gmail.com >
+---
+
+## Contributing
+
+If you would like to contribute to this repository, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the existing coding standards.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+For any questions or feedback, feel free to reach out via email at <alvomakaya@gmail.com> or connect with me on [LinkedIn](https://www.linkedin.com/in/AlvinAmisi).
+
