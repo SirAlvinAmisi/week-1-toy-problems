@@ -1,6 +1,13 @@
 // speedDetector.js
 function checkSpeed() {
     const speed = prompt("Enter the speed of the car (in km/h):");
+    
+    // Check if the input is null (user canceled)
+    if (speed === null) {
+        console.log("Input canceled.");
+        return;
+    }
+
     const numericSpeed = Number(speed);
 
     if (isNaN(numericSpeed) || numericSpeed < 0) {

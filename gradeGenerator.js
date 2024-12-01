@@ -1,6 +1,7 @@
 // gradeGenerator.js
 function getGrade() {
     const marks = prompt("Enter student marks (0-100):"); //prompts user to enter grade
+    if (marks === null) return; // Handle case where user cancels the prompt
     const numericMarks = Number(marks);
 
     if (isNaN(numericMarks) || numericMarks < 0 || numericMarks > 100) 
@@ -16,7 +17,7 @@ function getGrade() {
     } else if (numericMarks >= 60) {
         grade = "B";
     } else if (numericMarks >= 50) {
-        grade = "C"
+        grade = "C";
     } else if (numericMarks >= 40) {
         grade = "D";
     } else {
@@ -28,3 +29,4 @@ function getGrade() {
 
 // Run the function
 getGrade();
+
